@@ -1,13 +1,25 @@
-package ch.heig-vd.app;
+import java.util.ArrayList;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class Main
 {
+    static Client client;
+    static FileReader fileReader = new FileReader();
+
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        String sender = fileReader.getSender();
+        ArrayList<String> victims = fileReader.getVictims();
+        client = new Client("LOCALHOST",0);
+        ArrayList<Mail> mails = fileReader.getMessage();
+        for (Mail m : mails) {
+            m.setTo(victims);
+            m.setFrom(sender);
+            client.send(m);
+        }
+
     }
 }
