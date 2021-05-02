@@ -1,4 +1,4 @@
-address=localhost
-port=25
 groupSize1=3
 groupSize2=5
+address=localhost
+port=25
