@@ -53,7 +53,7 @@ public class Client
             br.close();
             pw.close();
 
-            System.out.println("\n\nLe mail a été envoyé avec succès !");
+            System.out.println("Le mail a été envoyé avec succès !\n\n");
         }catch (IOException e) {
             System.out.println("Erreur lors de la connexion au serveur");
         }

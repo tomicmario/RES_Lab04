@@ -70,7 +70,7 @@ public class Mail
             }
         }
 
-        mail += subject ;
+        mail += subject + "\n\n";
         mail += body;
 
         return mail;
