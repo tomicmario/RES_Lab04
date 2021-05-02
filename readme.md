@@ -53,7 +53,7 @@ M'étant pris assez tard pour ce projet, je me rends compte que j'ai pas vraimen
 
 ## Implémentation 
 
-L'implémrntation se fait au travers de quatre classes :
+L'implémentation se fait au travers de quatre classes :
 
 * Main
 
