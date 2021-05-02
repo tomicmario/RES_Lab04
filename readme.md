@@ -65,8 +65,8 @@ Partie s'occupant d'envoyer des mails, avec plusieurs appels bloquants pour vér
 
 * ConfigManager
 
-S'occupe de récupérer les différentes informations stockées dans les fichiers des configuration. 
+S'occupe de récupérer les différentes informations stockées dans les fichiers des configuration. Cette classe est utilisée par le Main uniquement. 
 
 * Mail 
 
-Classe encapsulant les différents attributs d'un mail. 
+Classe encapsulant les différents attributs d'un mail. Le constructeur prend deux arguments : L'object et le message. L'expéditeur et les destinataires sont à ajouter manuellement dans le main après. Ceci est du au fait que la contrainte du groupe de 3 minimum doit être respectée, pour que le mail puisse être envoyé. 
