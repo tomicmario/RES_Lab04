@@ -52,3 +52,21 @@ On peut observer le résultat du côté serveur aussi :
 M'étant pris assez tard pour ce projet, je me rends compte que j'ai pas vraiment le temps de m'appuyer sur docker. Mes excuses !
 
 ## Implémentation 
+
+L'implémrntation se fait au travers de quatre classes :
+
+* Main
+
+Cette classe est le centre de toutes les opérations. Celle-ci récupère les mails, les "victimes", et relègue ce qu'il faut au client, pour que celui-ci envoie les mails. C'est ici qu'on retrouve le contrôle du nombre de personnes dans un groupe. 
+
+* Client
+
+Partie s'occupant d'envoyer des mails, avec plusieurs appels bloquants pour vérifier que tout est en ordre, en utilisant un Socket, un BufferedReader et un PrintWriter. 
+
+* ConfigManager
+
+S'occupe de récupérer les différentes informations stockées dans les fichiers des configuration. 
+
+* Mail 
+
+Classe encapsulant les différents attributs d'un mail. 
