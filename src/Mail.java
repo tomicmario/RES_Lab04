@@ -39,4 +39,22 @@ public class Mail
     public String getBody() {
         return body;
     }
+
+    public String toString(){
+        String mail = "";
+        mail += "From: " + from + "\n";
+        mail += "To: ";
+        for (int i = 0; i < to.size(); ++i) {
+            mail += to.get(i);
+            if (i != to.size() - 1) {
+                mail += ", ";
+            } else {
+                mail += "\n";
+            }
+        }
+        mail += subject;
+        mail += body;
+
+        return mail;
+    }
 }
