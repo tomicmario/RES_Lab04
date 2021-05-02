@@ -1,0 +1,20 @@
+%MAIL_START%
+Subject: Tournée gratuite au chill
+Hey les gars, 
+
+On va probablement se retrouver au chill après le test de RES. Pour ceux qui comptent être présent, veuillez svp me l'indiquer, afin que je puisse voir si ma visa peut encaisser tout ça.
+
+À la semain prochaine !
+
+%MAIL_END%
+
+%MAIL_START%
+Subject: Se faire de l'argent facilement 
+Bonjour, 
+
+Comme plein de personnes respectables, j'ai découvert le délire de la cryptomonnaie. 
+Est-ce que ça vous dirait de consommer de l'electricité dans le vent, histoire qu'on se fasse une fortune ?
+
+Faites moi confiance.
+
+%MAIL_END%
