@@ -41,8 +41,14 @@ Le fichier contient toutes les adresses mails qui seront utilisées pour l'opér
 Il suffit simplement de lancer le main de l'application, avec un serveur SMTP qui tourne en fond. Le serveur fourni pour ce faire vient du projet https://github.com/tweakers/MockMock. Une fois le serveur lancé, on peut y accéder en entrant l'adresse http://localhost::8282 dans le navigateur internet de notre choix. 
 
 Ainsi, l'exécution du côté client, si tout se passe bien, produit le résultat suivant :
-![](figures/executionClient.png)
+![](figures/executionClient.PNG)
 
 On peut observer le résultat du côté serveur aussi :
-![](figures/resultatServeur1.png)
-![](figures/resultatServeur2.png)
+![](figures/resultatServeur1.PNG)
+![](figures/resultatServeur2.PNG)
+
+### À propos de docker
+
+M'étant pris assez tard pour ce projet, je me rends compte que j'ai pas vraiment le temps de m'appuyer sur docker. Mes excuses !
+
+## Implémentation 
